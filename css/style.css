@@ -16,11 +16,11 @@ html {
     background: #130a0a;
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #fff;
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #fff;
 }
 
 .navbar {
@@ -136,7 +136,7 @@ html {
 }
 
 .about-text p {
-    line-height: 1.8;
+    line-height: 2;
     padding-right: 2rem;
     color: #fff;
 }
@@ -184,4 +184,128 @@ html {
 .service .service-text p{
     margin: .5rem 0;
     line-height: 1.5;
+}
+
+/* CONTACT */
+.contact{
+    padding: 3rem 5rem;
+    color: #fff;
+    background-color: rgba(41, 40, 64, 0.719);
+}
+
+.contact-container{
+    margin: 2rem 0;
+}
+
+.contact-container h1{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: normal;
+}
+
+.contact-container .contact-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    width: 60%;
+}
+
+.contact-item h2{
+    font-weight: normal;
+}
+
+.contact-item p{
+    margin-top: .4rem;
+    font-size: 15px;
+}
+
+.contact-form{
+    width: 55%;
+    margin: auto;
+}
+
+.contact-form .form-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.contact-form .form-input input{
+    width: 100%;
+    padding: .7rem .5rem;
+    outline: none;
+    border-radius: .25rem;
+    border: none;
+    font-size: 1.05rem;
+}
+
+.contact-form .form-input input:nth-child(1){
+    margin-right: .6rem;
+}
+
+.contact-form .form-textarea textarea{
+    font-size: 1.05rem;
+    width: 100%;
+    padding: .5rem;
+    outline: none;
+    border-radius: .25rem;
+    border: none;
+    resize: none;
+}
+
+.contact-form button{
+    width: 50%;
+    padding: .7rem .5rem;
+    outline: none;
+    border-radius: .25rem;
+    border: none;
+    background-color: #130a0a;
+    color: #fff;
+    cursor: pointer;
+    margin: .6rem 0;
+    font-size: 1.05rem;
+}
+
+.contact-form button:hover{
+    background-color: rgba(20, 11, 11, 0.685);
+}
+
+/* Footer */
+.footer{
+    background-color: #130a0a;
+    color: #fff;
+    padding: 3rem 5rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footer-container .footer-item{
+    width: 30%;
+}
+
+.footer-container .footer-item h2{
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.footer-container .footer-item p{
+    font-weight: normal;
+    line-height: 2;
+}
+
+.footer-container .footer-item div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container .footer-item div a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem;
 }
